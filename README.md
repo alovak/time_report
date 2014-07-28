@@ -2,7 +2,7 @@
 
 ## Usage
 
-To track time I spend on taks I use plain text file and Vim. My report file looks
+To track time I spend on tasks I use plain text file and Vim. My report file looks
 like this:
 
 ```
@@ -17,7 +17,7 @@ like this:
 
 ```
 
-after you run time_report in directory when you have your time report file
+after you run ```time_report``` in directory when you have your time report file
 (tasks.todo by default) you get calculated duration for each day:
 
 ```
