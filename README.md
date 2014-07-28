@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/alovak/time_report.png)](https://codeclimate.com/github/alovak/time_report)
+
 # TimeReport
 
 ## Usage
