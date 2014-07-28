@@ -14,6 +14,8 @@ class TimeReport::Processor
     @output ||= ""
   end
 
+  private
+
   def generate
     days.each do |day|
       output << "#{day.in_hours} # #{day.date}\n"
@@ -49,8 +51,6 @@ class TimeReport::Processor
   def add_day(day)
     days << day
   end
-
-  private
 
   def days
     @days ||= []
