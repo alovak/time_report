@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+
+require 'time_report'
+
+report_file = ARGV[0] || 'tasks.todo'
+content = File.read(report_file)
+report = TimeReport::Processor.new(content)
+report.run
+
+puts report.output
